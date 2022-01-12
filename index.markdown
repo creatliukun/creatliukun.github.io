@@ -4,3 +4,13 @@
 
 layout: home
 ---
+``` bash
+  这是首页，需要的是不一样的首页
+```
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,22 @@
+---
+layout: page
+title:  "jekyll结构搭建"
+date:   2022-01-12 
+categories: jekyll update
+---
+
+``` bash
+1.1.0 评论功能
+第三方评论系统有很多，常见的有以下几个：
+畅言，Disqus，来必力（LiveRe），Valine
+1.1.1访问量统计
+使用百度统计。
+1.1.2自定义域名
+如果你不愿意使用GitHub Pages的访问地址（例如xxx.github.io），你可以在腾讯云或阿里云上购买自定义域名，并配置域名解析即可。
+我选择的是腾讯云
+
+
+```
+
+
+
