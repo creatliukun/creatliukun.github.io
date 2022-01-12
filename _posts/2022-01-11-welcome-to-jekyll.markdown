@@ -2,15 +2,10 @@
 layout: post
 title:  "mac从0到1搭建jekyll项目"
 date:   2022-01-11 18:32:18 +0800
-categories: jekyll update
+categories: jekyll update 
+# category ：你可以指定文章所属的一个或多个类别，而不是将文章置于文件夹内。当网站生成后，该文章就会按照设置的这些类别分类。类别（categories）可以被指定为YAML列表或空格分隔的字符串。
+# tags 与类别类似，可以将一个或多个标签添加到帖子中。与类别一样，标签可以被指定为YAML列表或空格分隔的字符串
 ---
-
-```
-现在的问题是我的代码推上去了，但是hexo deploy部署失败了，不知道是怎么回事，少了一些参数
-Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':
-                    No such file or directory @ dir_chdir - /github/workspace/docs
-```
-
 
 ``` bash
 mac安装brew(亲测)

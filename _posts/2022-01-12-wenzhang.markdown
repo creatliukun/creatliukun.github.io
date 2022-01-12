@@ -5,16 +5,21 @@ date:   2022-01-12
 categories: jekyll update
 ---
 
-``` bash
-1.1.0 评论功能
-第三方评论系统有很多，常见的有以下几个：
-畅言，Disqus，来必力（LiveRe），Valine
-1.1.1访问量统计
-使用百度统计。
-1.1.2自定义域名
-如果你不愿意使用GitHub Pages的访问地址（例如xxx.github.io），你可以在腾讯云或阿里云上购买自定义域名，并配置域名解析即可。
-我选择的是腾讯云
+之前利用hexo搭建项目中遇到啊的报错:
+<!-- 图片显示的方式 -->
+![My helpful screenshot]({{ "/assets/githubpage.png" | absolute_url }})
 
+<!-- pdf类似文件显示的方式 -->
+让用户下下载[模板文件]({{ "/assets/forever.xlsx" | absolute_url }})来预览pdf，或者xlsx等
+##### 模板命令
+``` 
+让用户下下载[模板文件]({{ "/assets/forever.xlsx" | absolute_url }})来预览pdf，或者xlsx等
+```
+
+因为没有找到解决方案，并且hexo每次部署时由于是打包成新的文件，所以提交还是拉取代码都会出问题，不太方便，就换成了
+jekyll方式搭建了，而且github的pages底层是jekyll做的。所以可以直接运行。不用在打包之类的，虽然可能访问速度有些慢，但总体而言，jekyll还是不错的
+## 开始
+``` bash
 
 ```
 
